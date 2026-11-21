@@ -1,0 +1,62 @@
+name: Request Plugin
+description: Request a new Indonesian plugin for lnreaderID
+labels: [plugin request]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repository supports Indonesian-language novel sources. Creating a plugin request does not guarantee it will be added. You can also contribute the plugin yourself.
+
+  - type: input
+    id: name
+    attributes:
+      label: Plugin Name
+      description: The name of the website or platform.
+      placeholder: |
+        Example: "Nama Situs Novel Indonesia"
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: Website URL
+      description: The URL of the website.
+      placeholder: |
+        Example: "https://example.com"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      description: Only Indonesian-language sources are supported here.
+      options:
+        - Bahasa Indonesia
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: other-details
+    attributes:
+      label: Other Details
+      description: Any additional information about the website.
+      placeholder: |
+        Why this plugin would be useful, special features, etc.
+
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Acknowledgements
+      description: Your issue will be closed if these requirements are not met.
+      options:
+        - label: I have searched existing issues and confirmed this plugin has not been requested before.
+          required: true
+        - label: I have used the plugin name as the issue title.
+          required: true
+        - label: I have verified this plugin does not already exist in the [repository](https://github.com/kirikutoka/lnreaderID).
+          required: true
+        - label: I have provided all requested information in this form.
+          required: true

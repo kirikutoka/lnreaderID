@@ -18,10 +18,10 @@ jobs:
 
           duplicate-check-enabled: true
           duplicate-check-labels: |
-            ["Source request", "Domain changed"]
+            ["plugin request", "severity: domain changed"]
 
           existing-check-enabled: false
-            
+
           auto-close-rules: |
             [
               {
