@@ -1,0 +1,28 @@
+[
+  {
+    "id": "wbnovel",
+    "sourceSite": "https://wbnovel.com/",
+    "sourceName": "WBNovel",
+    "options": {
+      "lang": "Indonesian"
+    }
+  },
+  {
+    "id": "morenovel",
+    "sourceSite": "https://vanovel.com/",
+    "sourceName": "Vanovel",
+    "options": {
+      "useNewChapterEndpoint": true,
+      "lang": "Indonesian"
+    }
+  },
+  {
+    "id": "novelbookid",
+    "sourceSite": "https://www.novelbook.id/",
+    "sourceName": "NovelBookID",
+    "options": {
+      "useNewChapterEndpoint": true,
+      "lang": "Indonesian"
+    }
+  }
+]
