@@ -1,6 +1,6 @@
 # lnreaderID
 
-Repositori plugin [LNReader](https://github.com/LNReader/lnreader) khusus sumber novel berbahasa Indonesia. Repositori utama: [kirikutoka/lnreaderID](https://github.com/kirikutoka/lnreaderID).
+Repositori plugin [LNReader](https://github.com/LNReader/lnreader) khusus sumber novel berbahasa Indonesia. Repositori utama: [lnreader/lnreader-plugins](https://github.com/lnreader/lnreader-plugins).
 
 ## Cakupan
 
